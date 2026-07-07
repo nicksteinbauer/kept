@@ -124,6 +124,16 @@ function NavBar() {
                 App Overview
               </Link>
             </li>
+
+            <li>
+              <Link
+                className="text-green block px-4 py-2 rounded-xl bg-light-tan transition-all duration-300 hover:bg-sage hover:text-light-tan"
+                href="/services"
+                onClick={() => setIsOpen(false)}
+              >
+                Services
+              </Link>
+            </li>
             <li>
               <Link
                 className="text-green block px-4 py-2 rounded-xl bg-light-tan transition-all duration-300 hover:bg-sage hover:text-light-tan"
@@ -131,15 +141,6 @@ function NavBar() {
                 onClick={() => setIsOpen(false)}
               >
                 Contact
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="text-green block px-4 py-2 rounded-xl bg-light-tan transition-all duration-300 hover:bg-sage hover:text-light-tan"
-                href="/about"
-                onClick={() => setIsOpen(false)}
-              >
-                About
               </Link>
             </li>
             <li>
