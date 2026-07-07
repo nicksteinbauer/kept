@@ -10,6 +10,12 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-serif: var(--font-libre-baskerville);
+  --color-light-tan: #dfdeda;
+  --color-green: #454c49;
+  --color-brown: #a18954;
+  --color-tan: #ccc9c2;
+  --color-sage: #7a857f;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,7 +26,60 @@
 }
 
 body {
-  background: var(--background);
+  background: var(--color-light-tan);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-serif);
+  font-size: 18px;
+}
+
+h1 {
+  @apply text-4xl lg:text-6xl font-medium py-2;
+}
+h1.small {
+  @apply text-3xl font-medium py-2 leading-tight;
+}
+h2 {
+  @apply text-3xl font-medium py-2;
+}
+h2.light {
+  @apply text-3xl font-normal py-2 leading-normal;
+}
+h3.big {
+  @apply text-2xl font-medium py-2;
+}
+h3 {
+  @apply text-xl font-medium py-2;
+}
+h4 {
+  @apply text-lg font-medium py-2;
+}
+p {
+  @apply py-2;
+}
+
+.kept-list {
+  @apply py-2;
+}
+.kept-list li {
+  @apply relative pl-7 block py-2
+         before:absolute
+         before:left-0
+         before:top-1/2
+         before:-translate-y-1/2
+         before:w-6
+         before:h-6
+         before:bg-brown
+         before:content-[''];
+  /*come on */
+}
+
+.kept-list-white li {
+  @apply before:bg-white;
+}
+
+.kept-list li::before {
+  mask: url("/circle-check-regular-full.svg") no-repeat center;
+  -webkit-mask: url("/circle-check-regular-full.svg") no-repeat center;
+  mask-size: contain;
+  -webkit-mask-size: contain;
 }
