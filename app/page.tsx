@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
+
+export const metadata: Metadata = {
+  title: "Builder-Backed Home Maintenance",
+  description:
+    "KEPT is a subscription-based home maintenance service built by design-build professionals. Preventative care, reliable support, and long-term property planning — all in one trusted system.",
+};
 import { ScrollVideo } from "@/components/ScrollVideo";
 import Hero from "@/components/Hero";
 import ImageCarousel from "@/components/ImageCarousel";

@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
+
+export const metadata: Metadata = {
+  title: "Home Maintenance Services",
+  description:
+    "KEPT coordinates essential, seasonal, enhancement, and preservation services for your home — year-round, backed by vetted and trusted professionals.",
+};
 import ImageCarousel from "@/components/ImageCarousel";
 import Link from "next/link";
 
@@ -77,7 +84,7 @@ export default function Home() {
                 <h2 className="light">Essential Services</h2>
 
                 <div className="flex flex-col gap-2">
-                  <div className="h-[100px] xl:h-[140px]">
+                  <div className="h-25 xl:h-35">
                     <Service1 />
                   </div>
                 </div>
@@ -114,13 +121,13 @@ export default function Home() {
       </section>
       <section className="rounded-2xl p-10 xl:p-20 border border-brown">
         <div className="flex flex-col md:flex-row items-center">
-          <div className="md:w-2/3 flex md:pr-10 py-10">
+          <div className="md:w-2/3 flex md:pr-10 py-10 text-green">
             <FadeIn className="-translate-x-7 flex flex-col gap-3 flex-1" vars={{ duration: 1 }}>
               <div>
                 <h2 className="light">Seasonal Services</h2>
 
                 <div className="flex flex-col gap-2">
-                  <div className="h-[100px] xl:h-[140px]">
+                  <div className="h-25 xl:h-35">
                     <Service2Alt />
                   </div>
                 </div>
@@ -157,7 +164,7 @@ export default function Home() {
                 <h2 className="light">Enhancement Services</h2>
 
                 <div className="flex flex-col gap-2">
-                  <div className="h-[100px] xl:h-[140px]">
+                  <div className="h-25 xl:h-35">
                     <Service3 />
                   </div>
                 </div>
@@ -193,13 +200,13 @@ export default function Home() {
       </section>
       <section className="rounded-2xl p-10 xl:p-20 border border-brown">
         <div className="flex flex-col md:flex-row items-center">
-          <div className="md:w-2/3 flex md:pr-10 py-10">
+          <div className="md:w-2/3 flex md:pr-10 py-10 text-green">
             <FadeIn className="-translate-x-7 flex flex-col gap-3 flex-1" vars={{ duration: 1 }}>
               <div>
                 <h2 className="light">Prservation Services</h2>
 
                 <div className="flex flex-col gap-2">
-                  <div className="h-[100px] xl:h-[140px]">
+                  <div className="h-25 xl:h-35">
                     <Service4Alt />
                   </div>
                 </div>

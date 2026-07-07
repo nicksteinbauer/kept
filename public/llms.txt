@@ -1,0 +1,32 @@
+# KEPT
+
+> KEPT is a subscription-based home maintenance service built by design-build professionals. Preventative care, service coordination, and long-term property planning — all in one trusted system.
+
+## What KEPT Does
+
+KEPT acts as a single accountable partner for homeowners — handling routine maintenance, coordinating vetted vendors, keeping organized service records, and planning for future property needs. It replaces reactive, inconsistent home management with a structured, proactive system delivered through a mobile app.
+
+## Membership Plans
+
+- **Standard Membership — $99/month**: On-demand repairs, vendor coordination and management, quality assurance, access to vetted licensed and insured vendors, scope of work and bid verification.
+- **Maintenance Membership — $249/month**: Everything in Standard, plus recurring scheduled maintenance, a modern service management platform, and a personalized maintenance plan and project list.
+
+## Services
+
+- **Essential**: Everyday repairs — plumbing, electrical, HVAC, painting, handyman, leak detection, hardware and fixture replacement.
+- **Seasonal**: Calendar-timed upkeep — gutter cleaning, snow removal, sprinkler activation/winterization, outdoor furniture, seasonal planters.
+- **Enhancement**: Upgrades and renovations — millwork, wallcovering, hardscape, smart home integration, EV charging, garage upgrades.
+- **Preservation**: Historic home care — window restoration, plaster repair, hardwood refinishing, masonry, tuckpointing, ARB consultation support.
+
+## Pages
+
+- [Home](/): Overview of the KEPT service and value proposition
+- [App Overview](/app-overview): How the KEPT app works step by step
+- [Memberships](/memberships): Plan details and pricing
+- [Services](/services): Full breakdown of service categories
+- [Sign Up](/sign-up): Download the app on iOS or Android
+- [Contact](/contact): Get in touch with the KEPT team
+
+## About
+
+KEPT is backed by design-build professionals and available in select locations across the United States, delivered in partnership with trusted local builders and home maintenance professionals. In each area, services are offered as "Kept by [Local Company Name]."

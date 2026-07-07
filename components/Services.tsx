@@ -45,7 +45,7 @@ export default function Services() {
               </div>
             </div>
           </FadeIn>
-          <FadeIn className="-translate-x-7 sm:w-1/2 p-2.5" vars={{ duration: 1, delay: 0.9 }}>
+          <FadeIn className="-translate-x-7 sm:w-1/2 p-2.5" vars={{ duration: 1, delay: 0.3 }}>
             <div className="flex items-center flex-col gap-2">
               <div className="h-[100px] xl:h-[140px]">
                 <Service3 />
@@ -55,7 +55,7 @@ export default function Services() {
               </div>
             </div>
           </FadeIn>
-          <FadeIn className="-translate-x-7 sm:w-1/2 p-2.5" vars={{ duration: 1, delay: 1.2 }}>
+          <FadeIn className="-translate-x-7 sm:w-1/2 p-2.5" vars={{ duration: 1, delay: 0.6 }}>
             <div className="flex items-center flex-col gap-2">
               <div className="h-[100px] xl:h-[140px]">
                 <Service4 />

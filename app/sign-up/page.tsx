@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import HeroSign from "@/components/HeroSign";
+
+export const metadata: Metadata = {
+  title: "Sign Up",
+  description:
+    "Join KEPT today. Download the app on iOS or Android and start managing your home with one trusted maintenance partner.",
+};
 import Services from "@/components/Services";
 
 export default function Home() {
@@ -29,8 +36,8 @@ export default function Home() {
             Available on <em>App Store</em> and <em>Google Play</em>
           </>
         }
-        button1={{ href: "/app-overview" }}
-        button2={{ href: "/services" }}
+        button1={{ href: "https://apps.apple.com/app/id..." }}
+        button2={{ href: "https://play.google.com/store/apps/details?id=..." }}
       />
       <Services />
     </div>

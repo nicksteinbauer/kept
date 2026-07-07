@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
+
+export const metadata: Metadata = {
+  title: "Contact Us",
+  description:
+    "Have questions about KEPT home maintenance? Reach out to our team and we'll get back to you soon.",
+};
 import ImageCarousel from "@/components/ImageCarousel";
 import How from "@/components/How";
 import ContactForm from "@/components/ContactForm";

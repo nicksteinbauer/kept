@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
+
+export const metadata: Metadata = {
+  title: "App Overview",
+  description:
+    "See how the KEPT app organizes your home's maintenance, calendar, and service history in one secure platform — from initial setup to ongoing care.",
+};
 import { ScrollVideo } from "@/components/ScrollVideo";
 import Hero from "@/components/Hero";
 
@@ -33,7 +40,7 @@ export default function Home() {
         }}
       />
 
-      <section className="p-10 xl:p-20">
+      <section className="p-10 xl:p-20 text-green">
         <div className="flex flex-col md:flex-row-reverse md:justify-end">
           <div className="flex items-center md:pl-10">
             <FadeIn className="-translate-x-7 flex flex-col gap-3" vars={{ duration: 1 }}>
@@ -101,7 +108,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="p-10 xl:p-20">
+      <section className="p-10 xl:p-20 text-green">
         <div className="flex flex-col md:flex-row-reverse md:justify-end">
           <div className="flex items-center md:pl-10">
             <FadeIn className="-translate-x-7 flex flex-col gap-3" vars={{ duration: 1 }}>
@@ -169,7 +176,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="p-10 xl:p-20">
+      <section className="p-10 xl:p-20 text-green">
         <div className="flex flex-col md:flex-row-reverse md:justify-end">
           <div className="flex items-center md:pl-10">
             <FadeIn className="-translate-x-7 flex flex-col gap-3" vars={{ duration: 1 }}>

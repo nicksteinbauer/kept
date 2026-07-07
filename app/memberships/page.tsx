@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
+
+export const metadata: Metadata = {
+  title: "Membership Plans",
+  description:
+    "Choose a KEPT membership — Standard at $99/month or Maintenance at $249/month. Get preventative care, vendor coordination, and a personalized home maintenance plan.",
+};
 import ImageCarousel from "@/components/ImageCarousel";
 import Link from "next/link";
 import How1 from "@/components/How1";
@@ -143,7 +150,7 @@ export default function Home() {
               vars={{ duration: 1, delay: 0.3 }}
             >
               <div className="flex items-center flex-col gap-10">
-                <div className="h-[200px]">
+                <div className="h-50">
                   <How1 />
                 </div>
                 <div className="number bg-brown rounded-[100px] text-white p-10 w-9 h-9 flex items-center justify-center text-4xl">
@@ -163,7 +170,7 @@ export default function Home() {
               vars={{ duration: 1, delay: 0.6 }}
             >
               <div className="flex items-center flex-col gap-10">
-                <div className="h-[200px]">
+                <div className="h-50">
                   <How2 />
                 </div>
                 <div className="number bg-brown rounded-[100px] text-white p-10 w-9 h-9 flex items-center justify-center text-4xl">
@@ -184,7 +191,7 @@ export default function Home() {
               vars={{ duration: 1, delay: 0.9 }}
             >
               <div className="flex items-center flex-col gap-10">
-                <div className="h-[200px]">
+                <div className="h-50">
                   <How3 />
                 </div>
                 <div className="number bg-brown rounded-[100px] text-white p-10 w-9 h-9 flex items-center justify-center text-4xl">
