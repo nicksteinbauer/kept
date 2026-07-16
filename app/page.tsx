@@ -146,7 +146,7 @@ export default function Home() {
               className="-translate-x-7 flex flex-col gap-3"
               vars={{ duration: 1, delay: 0.3 }}
             >
-              <ScrollVideo src="/KeptV2.mp4" className="max-w-[400px]" />
+              <ScrollVideo src="/KeptMainVideo.mp4" className="max-w-[400px]" />
             </FadeIn>
           </div>
         </div>

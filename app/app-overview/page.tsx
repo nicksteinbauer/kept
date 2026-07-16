@@ -34,7 +34,7 @@ export default function Home() {
           height: 1024,
         }}
         video={{
-          src: "/KeptV2.mp4",
+          src: "/KeptMainVideo.mp4",
           className:
             "hidden sm:block w-[200px] rounded-[2rem] overflow-hidden xl:w-[300px] xl:rounded-[3rem]",
         }}
@@ -134,7 +134,7 @@ export default function Home() {
               vars={{ duration: 1, delay: 0.3 }}
             >
               <ScrollVideo
-                src="/KeptV2.mp4"
+                src="/KeptCalendar.mp4"
                 className="w-[200px] rounded-[2rem] overflow-hidden xl:w-[300px] xl:rounded-[3rem]"
               />
             </FadeIn>
@@ -168,7 +168,7 @@ export default function Home() {
               vars={{ duration: 1, delay: 0.3 }}
             >
               <ScrollVideo
-                src="/KeptV2.mp4"
+                src="/KeptSubmitRequest.mp4"
                 className="w-[200px] rounded-[2rem] overflow-hidden xl:w-[300px] xl:rounded-[3rem]"
               />
             </FadeIn>
@@ -202,7 +202,7 @@ export default function Home() {
               vars={{ duration: 1, delay: 0.3 }}
             >
               <ScrollVideo
-                src="/KeptV2.mp4"
+                src="/KeptRecurring.mp4"
                 className="w-[200px] rounded-[2rem] overflow-hidden xl:w-[300px] xl:rounded-[3rem]"
               />
             </FadeIn>
